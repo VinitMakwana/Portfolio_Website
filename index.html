@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar">
+        <div class="logo">ShadowByte</div>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="loader">
+        <div class="loader-count">
+          <h2>0%</h2>
+          <p>Portfolio Loading....</p>
+        </div>
+      </div>
+      <div id="cursor"></div>
+      <div class="hero-section" id="home">
+        <div class="hero-bg">
+          <img src="./src/assets/dark-blue.avif" alt="" />
+        </div>
+        <section class="hero-content">
+          <div class="heading">
+            <h1>Vinit Makwana</h1>
+          </div>
+          <div class="role">
+            <span class="role-static">I am</span>
+            <span class="role-dynamic">Programmer</span>
+          </div>
+          <p class="hero-bio">
+            I enjoy solving engineering problems across software development, data engineering, machine learning, distributed systems, and Linux-based environments.
+          </p>
+
+          <div class="hero-cta">
+            <a class="cta-btn" href="#work">View Work</a>
+            <a class="cta-secondary" href="#about">About Me</a>
+          </div>
+
+          <div class="hero-tags">
+            <span>Programmer</span>
+            <span>Problem Solver</span>
+            <span>Linux Enthusiast</span>
+          </div>
+
+          <div class="hero-social">
+            <a
+              href="https://github.com/VinitMakwana"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/vinitmakwana7/"
+              target="_blank"
+              rel="noreferrer"
+              >LinkedIn</a
+            >
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="scroll-down">
+            <span></span>
+            Scroll
+          </div>
+        </section>
+      </div>
+      <section class="marquee-section">
+        <div class="marquee-title">Technical Skills</div>
+        <div class="marquee-container">
+          <div class="marquee-track">
+            <div class="skill-card">
+              <div class="skill-icon js">Py</div>
+              <span>Python</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon ts">SQL</div>
+              <span>SQL</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon react">DSA</div>
+              <span>Data Structures and Algorithms</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon node">OS</div>
+              <span>Operating Systems</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon express">N/w</div>
+              <span>Networking</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon mongo">Linux</div>
+              <span>Linux</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon git">Big Data</div>
+              <span>Big Data Technologies</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon tailwind">AI/ML</div>
+              <span>Artificial Intelligence and Machine Learning</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="visual-section">
+        <div class="hero-visual">
+          <div class="visual-inner">
+            <img src="./src/assets/hero.png" alt="Hero image" />
+            <div class="visual-mask"></div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="about-section" id="about">
+        <div class="about-container">
+          <div class="about-intro">
+            <div class="about-pretitle">The Story So Far</div>
+            <h2 class="about-title">About Me</h2>
+            <p>
+              I am a programmer and Data & AI enthusiast focused on building practical software systems and solving engineering problems through strong fundamentals, structured thinking, and modern technologies.
+            </p>
+
+            <p>
+              My interests span software development, data engineering, big data, machine learning, Linux, operating systems, networking, algorithms, cloud computing, and distributed systems.
+            </p>
+
+            <p>
+              I enjoy understanding how systems work under the hood and turning that understanding into reliable applications, data pipelines, and intelligent solutions.
+            </p>
+
+            <div class="about-notes">
+              <div class="note">
+                <div class="note-year">2025</div>
+                <div class="note-text">Graduation Year</div>
+              </div>
+              <div class="note">
+                <div class="note-year">Big Data Technologies</div>
+                <div class="note-text">Specialization</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section" id="work">
+        <div class="work-title">
+          <h1>Featured Work</h1>
+        </div>
+        <div class="work-pin">
+          <div class="work-track-horizontal">
+            <article class="work-panel">
+              <a
+                href="https://github.com/VinitMakwana/FMCG_Analytics_Pipeline.git"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="./src/assets/project-1.png" alt="Project 1" />
+                <div class="panel-caption">FMCG Data Unification Project</div>
+              </a>
+            </article>
+            <article class="work-panel">
+              <a
+                href="https://github.com/VinitMakwana/Care-Companion.git"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="./src/assets/project-2.png" alt="Project 2" />
+                <div class="panel-caption">Care Companion - Healthcare AI Assistant</div>
+              </a>
+            </article>
+            <!-- <article class="work-panel">
+              <a
+                href="https://subhadeep2609.github.io/Fintrack-pro/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="./src/assets/project-3.png" alt="Project 3" />
+                <div class="panel-caption">Fintrack Pro</div>
+              </a>
+            </article>
+            <article class="work-panel">
+              <a
+                href="https://senior-care-ecommerce.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="./src/assets/project-4.png" alt="Project 4" />
+                <div class="panel-caption">Senior Care</div>
+              </a>
+            </article>
+            <article class="work-panel">
+              <a
+                href="https://nova-ui-gamma.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="./src/assets/project-5.png" alt="Project 5" />
+                <div class="panel-caption">Nova UI</div>
+              </a>
+            </article>
+            <article class="work-panel">
+              <a
+                href="https://collaborative-task-manager-taupe.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="./src/assets/project-6.png" alt="Project 6" />
+                <div class="panel-caption">Task Manager</div>
+              </a>
+            </article> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-container">
+          <div class="contact-left">
+            <div class="contact-kicker">Let's Build Something</div>
+            <h2>Contact</h2>
+            <h16>
+              I'm open to new opportunities and collaborations. Reach out for
+              project inquiries, contract work, or just to say hello.
+            </h16>
+
+            <ul class="contact-info">
+              <li>
+                <span>Email</span>
+                <a href="mailto:makwanavinit54@gmail.com">makwanavinit54@gmail.com</a>
+              </li>
+              <li>
+                <span>Location</span>
+                <strong>Mumbai, India</strong>
+              </li>
+              <li>
+                <span>Availability</span>
+                <strong>Open to work</strong>
+              </li>
+            </ul>
+            <div class="contact-actions">
+              <a href="mailto:makwanavinit54@gmail.com">Email Me</a>
+              <a
+                href="https://github.com/VinitMakwana"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub</a
+              >
+            </div>
+          </div>
+
+          <form
+            id="contactForm"
+            class="contact-form"
+            novalidate
+            action="https://formsubmit.co/makwanavinit54@gmail.com"
+            method="POST"
+          >
+            <!-- Formsubmit AJAX endpoint will forward to your email -->
+            <input
+              type="hidden"
+              name="_subject"
+              value="New contact from portfolio"
+            />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://formsubmit.co/" />
+            <input type="text" name="_honey" style="display: none" />
+
+            <label>
+              <span class="sr-only">Name</span>
+              <input required type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              <span class="sr-only">Email</span>
+              <input
+                required
+                type="email"
+                name="email"
+                placeholder="Your email"
+              />
+            </label>
+            <label>
+              <span class="sr-only">Message</span>
+              <textarea
+                required
+                name="message"
+                rows="6"
+                placeholder="Tell me about your project..."
+              ></textarea>
+            </label>
+            <button type="submit" class="btn-primary">
+              <span>Send Message</span>
+            </button>
+            <div class="contact-feedback" aria-hidden="true"></div>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer-section">
+        <div class="footer-marquee" aria-hidden="true">
+          <div class="footer-marquee-track">
+            <span>Artificial Intelligence</span>
+            <span>Programmer</span>
+            <span>Big Data</span>
+            <span>Backend</span>
+            <span>Linux</span>
+            <span>Portfolio</span>
+          </div>
+        </div>
+        <div class="footer-inner">
+          <div class="footer-copy">
+            <span>ShadowByte</span>
+            <p>Programmer, Data and AI Enthusiast, Software Engineering</p>
+          </div>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer-meta">
+            <p>© 2026 Vinit Makwana</p>
+            <p>Built with GSAP + scroll-driven motion.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
